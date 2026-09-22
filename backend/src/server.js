@@ -19,7 +19,7 @@ const __dirname = path.resolve();
   app.use(
     cors({
       origin: ["http://localhost:5173",
-     "https://think-note-g1ew51rcy-sumathi2.vercel.app/"
+     "https://think-note-eight.vercel.app/"
       ],
             methods: ["GEY", "POST", "PUT", "DELETE", "OPTIONS"],
       credentials: true
